@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Grandiflora+One&family=Josefin+Sans&family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+  <nav class="navbar">
+
+    <div>
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M320 32c0-9.9-4.5-19.2-12.3-25.2S289.8-1.4 280.2 1l-179.9 45C79 51.3 64 70.5 64 92.5V448H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H96 288h32V480 32zM256 256c0 17.7-10.7 32-24 32s-24-14.3-24-32s10.7-32 24-32s24 14.3 24 32zm96-128h96V480c0 17.7 14.3 32 32 32h64c17.7 0 32-14.3 32-32s-14.3-32-32-32H512V128c0-35.3-28.7-64-64-64H352v64z"/></svg>
+      <a href="./index.html">The Escaper</a>
+    </div>
+
+    <ul class="navbar-menu">
+      <li><a href="./index.html">메인</a></li>
+      <li><a href="./about.html">안내</a></li>
+      <li><a href="#">테마</a></li>
+      <li><a href="#">예약</a></li>
+      <li><a href="#">오시는 길</a></li>
+    </ul>
+  </nav>
+
+  <div class="image-container">
+    <img 
+    class="aboutimage"
+    src="./img/backimage.jpg" 
+    alt="image"
+  >
+    <div class="about-text hidden-text">About</div>
+  </div>
+
+  <div class="title-container el opacity-0">
+    <span class="title-text kr">The<br>
+     Escaper?</span>
+    <div class="border-t-8 border-t-gray-400"></div>
+  </div>
+  
+  <div class="text">
+    <h1 class="el opacity-0 mt-8 px-4 py-2 border-l-8 border-l-gray-300">
+    1.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores dignissimos aliquid fuga dolores cum. Recusandae eos quos fugit earum explicabo suscipit, consequatur tenetur, laudantium placeat voluptatem adipisci vitae quae!
+    </h1>
+    <br>
+    <h1 class="el opacity-0 mt-8 px-4 py-2 border-l-8 border-l-gray-300">
+    2.<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit alias nulla aliquam repellat, facere commodi dolor magnam optio architecto fugiat dignissimos doloremque delectus quam explicabo tempore non facilis, odio fugit!
+    </h1>
+    <br>
+    <h1 class="el opacity-0 mt-8 px-4 py-2 border-l-8 border-l-gray-300">
+    3.<br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum impedit dolorem ad accusantium fugit? Nisi assumenda, consectetur in corrupti, tempora aliquam quisquam voluptatibus repellendus quia nihil beatae repellat eligendi saepe.
+  </h1>
+  </div>
+  
+  <div class="title-container el opacity-0">
+    <span class="title-text kr">
+     Q & A</span>
+    <div class="border-t-8 border-t-gray-400"></div>
+  </div>
+  
+  
+  
+  
+  
+  <div class="QnA-container">
+    <ul class="QnA-list">
+      <li class="QnA-item">
+        <div class="QnA el opacity-0" onclick="toggleSubcategory('subcat1')">Q. 카페 이용 요금은 얼마인가요?</div>
+        <ul id="subcat1" class="subcategory-list">
+          <li class="subcategory-item mt-8 px-4 py-2 border-l-8 border-l-gray-300"><h1><br>
+            모두 60분의 모험을 즐길수있으며 뭉칠수록 1인당 가격이 내려갑니다.<br>
+            - 2명 44,000원(1인 22,000원)<br>
+            - 3명 60,000원(1인 20,000원)<br>
+            - 4명 76,000원(1인 19,000원)<br>
+          </h1></li>
+        </ul>
+      </li>
+      <li class="QnA-item">
+        <div class="QnA el opacity-0" onclick="toggleSubcategory('subcat2')">Q. 위험하지는 않나요?</div>
+        <ul id="subcat2" class="subcategory-list">
+          <li class="subcategory-item mt-8 px-4 py-2 border-l-8 border-l-gray-300"><h1><br>
+            매장 인테리어 기획 단계부터 소방 전문가와 함께 화재에 대비해 최첨단 안전시설을 갖춰 놓았습니다.<br>
+            <br>
+            1. 자동개방<br>
+            - 화재가 감지될 때 모든 출구, 입구가 자동으로 열립니다.<br>
+            <br>
+            2. 스프링클러<br>
+            - 모든 테마룸과 매장에 스프링클러가 설치돼 있습니다.<br>
+            - 화재 발생시 스프링클러가 작동해 화재를 진압합니다.<br>
+            <br>
+            3. 소방 기구<br>
+            - 매장마다 소화기가 비치돼 있고 모든 테마룸에 화재감지기가 설치돼 있어 화재 감지시 비상 경종이 작동되면서 화재를 알려 드립니다.<br>
+            </h1></li>
+        </ul>
+      </li>
+      <li class="QnA-item">
+        <div class="QnA el opacity-0" onclick="toggleSubcategory('subcat3')">Q. 방탈출하는데 어렵나요?</div>
+        <ul id="subcat3" class="subcategory-list">
+          <li class="subcategory-item mt-8 px-4 py-2 border-l-8 border-l-gray-300"><h1><br>
+            - 공포 테마를 주로 다루는 카페이기에 난이도는 다소 어려울 수 있습니다.<br>
+            - 친절한 매니져가 쉽게 이용할수있도록 도와드리고 있으니걱정하지 않으셔도 됩니다.<br>
+          </h1></li>
+        </ul>
+      </li>
+      <li class="QnA-item">
+        <div class="QnA el opacity-0" onclick="toggleSubcategory('subcat4')">Q. 방탈출 카페는 어떤 카페인가요?</div>
+        <ul id="subcat4" class="subcategory-list">
+          <li class="subcategory-item mt-8 px-4 py-2 border-l-8 border-l-gray-300"><h1><br>
+            - 새로운 놀이 문화중에 하나로 방에 갇혀서 테마에 맞는 미션을 스토리로 풀어 방을 탈출하는 게임입니다.<br>
+            - 최소 2명, 최대 6명이 함께 게임을 풀면서 끈끈한 팀워크가 형성되고 참가자들의 다양한 매력을 발견할 수 있습니다.<br>
+          </h1></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  
+  
+  <div class="title-container el opacity-0">
+    <span class="title-text kr">
+     주의사항</span>
+    <div class="border-t-8 border-t-gray-400"></div>
+  </div>
+  
+  <div class="kr text"> 
+      <p class="el opacity-0">- The Escaper 사이트(모바일,웹) 통해 사전예약하세요.<br> 
+        미 방문시엔 반드시 예약취소</p>
+      <br> 
+      <p class="el opacity-0">- 음주를 하신 고객 분들은 방탈출카페를 이용하실 수 없습니다.</p>
+      <br> 
+      <p class="el opacity-0">- 예약 1시간전부터 셀프바 무료 이용가능합니다.<br> 
+          최소 게임전 10분전에 도착해서 안내받으세요.</p>
+      <br> 
+      <p class="el opacity-0">- 입장전 개인 소지품은 모두 보관함에 넣어주세요.</p>
+      <br> 
+      <p class="el opacity-0">- 테마 게임방 안에서는 핸드폰, 카메라 등 촬영이 불가합니다.</p>
+      <br> 
+      <p class="el opacity-0">- 위급한 상황, 도움이 필요할땐 인터폰을 사용하세요.</p>
+      <br> 
+  </div>
+  
+  
+  <div class="logo">
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M320 32c0-9.9-4.5-19.2-12.3-25.2S289.8-1.4 280.2 1l-179.9 45C79 51.3 64 70.5 64 92.5V448H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H96 288h32V480 32zM256 256c0 17.7-10.7 32-24 32s-24-14.3-24-32s10.7-32 24-32s24 14.3 24 32zm96-128h96V480c0 17.7 14.3 32 32 32h64c17.7 0 32-14.3 32-32s-14.3-32-32-32H512V128c0-35.3-28.7-64-64-64H352v64z"/></svg>
+    <a href="">The Escaper</a>
+  </div>
+  
+  
+  <div class="info">
+    <p>대표이사 박재민</p>
+    <p>사업자 등록번호 000-00-00000</p>
+    <p>대표주소 서울시 강남구 0000000</p>
+  </div>
+  
+  <div class="service">
+    고객센터 운영시간 : 10:00 ~ 23:00
+  </div>
+  
+  
+  <script src="./js/script.js"></script>
+</body>
+</html>
